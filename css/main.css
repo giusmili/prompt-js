@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100svh;
+}
+
+header h1{
+    text-align: center;
+    line-height: 8.0rem;
+    background-color: #222;
+    color: #fff;
+}
+
+.main-article{
+    max-width: 80rem;
+    margin: 5rem auto 0;
+    background-color: #fafafafa;
+    box-shadow: 0 0 15rem hsl(0, 1%, 35%);
+}
+.main-article h2{
+    margin: 0; /* modifier pour milligram */
+    line-height: 5rem;
+    text-align: center;
+    color: #fff;
+    background-color: #222;
+}
+.main-article p{
+    padding: 1rem;
+}
+.btn-inline-block{ /* ajouter pour milligram */
+    display: block;
+    margin: 1rem 0 0;
+    
+}
+.button.button-outline, 
+button.button-outline, 
+input[type="button"].button-outline, 
+input[type="reset"].button-outline, 
+input[type="submit"].button-outline{
+    border-color: #222;
+    color: #222;
+}
+footer p{
+    text-align: center;
+}
