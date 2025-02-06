@@ -40,6 +40,13 @@ input[type="submit"].button-outline{
     border-color: #222;
     color: #222;
 }
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm){
+    line-height: inherit;
+}
+.main-article .warning{
+    background-color: #e82747;
+    color: #ffff;
+}
 footer p{
     text-align: center;
 }
